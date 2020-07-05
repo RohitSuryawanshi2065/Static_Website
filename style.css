@@ -1,0 +1,283 @@
+*{
+    max-width: 100%;
+    overflow-x: hidden;
+    
+  }
+  body{
+    margin: 0px;
+    /* background-color: #ecdddd; */
+    background-color: rgba(149, 173, 116, 0.233);
+  
+  }
+  .Mainlogo {
+   background-color: rgb(53, 185, 163);
+  
+   
+  }
+  .Mainlogo img{
+   max-width: 100%;
+    margin-top: 10px;
+    Position:relative;
+    left:20px; 
+  }
+  .Details{
+  overflow-y: hidden;
+    margin:0px;
+    height: 170px;
+    width:86%;
+    display:inline-block; 
+    border-style:solid;
+    font-size: 140%;
+  
+  }
+  .Copyright{
+    color:Black;
+    position:relative;
+    left:30%;
+    bottom:35%;
+    margin: 0px; 
+    font-size: 140%;
+    
+  }
+  /* img{
+    margin-top: 92px;
+    display:inline-block; 
+    border-style:solid;
+   
+  } */
+  nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  
+  
+  .Menu a{
+    text-decoration: none;
+  }
+  
+  .Menu{
+    
+    background-color: cornflowerblue;
+    font-size: 150%;
+    text-align: right;
+    display:inline-block; 
+    border-style:solid;
+    color: black;
+    width: 100%;
+     text-decoration: none;
+     margin-top:0px;
+     margin-bottom:2px;
+    
+    
+  }
+      .Menu a:hover{
+           background-color: orangered;
+           color: white;
+      }
+  
+  
+  .Logo{
+    border: 2px solid black;
+   float: left;
+   margin-left:450px;
+  
+  }
+  
+  .Title{
+    
+    color: rgb(172, 123, 32);
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 120%; 
+  
+    
+    
+  }
+   .Content {
+    background-color: #ecdddd;
+     padding: 10px 20px 10px 20px;
+    text-align: justify;  
+    font-size: 140%; 
+  }
+   .Info {
+    
+     padding: 10px 20px 10px 20px;
+    text-align: justify;  
+    font-size: 140%; 
+  }
+  
+  .list {
+    
+     padding: 10px 20px 10px 20px;
+    text-align: justify;  
+    font-size: 130%; 
+  }
+  .Notice{
+    
+    overflow-y: hidden;
+    width: 600px;
+    height: 530px;
+    border-radius: 15px;
+   border-style:solid;
+    color: black;
+    margin-top: 0px;
+    margin-left: 4%;
+    margin-bottom: 0%;
+    padding:4px 10px 0px 10px;
+  
+  }
+  .Notice p{
+    text-align: justify;   
+    font-size: 130%; 
+  }
+   .container {
+    
+     
+     margin-top:-100px;
+      margin-bottom: 0px;
+          width: 100%;
+          height: auto;
+          background-color: rgb(30, 53, 43);
+         padding: 0px;
+        }
+        
+        .container div {
+            margin-top:0px;
+           Position:relative;
+           left:13%;
+          float: left;
+          width: 30%;
+          height: auto;
+        }
+          #box1{
+         
+          width:auto;
+    height: auto;
+    border-radius: 10px;
+   border-style:solid;
+   border-width: 3px;
+    color:rgb(35, 165, 111);
+    margin:0px 8px 0px 17px;
+        }
+          #box2{
+         
+          width: auto;
+    height: auto;
+    border-radius: 10px;
+   border-style:solid;
+   border-width: 3px;
+    color:rgb(35, 165, 111);
+    margin:0px 8px 0px 8px;
+        }
+        #box3{
+         
+          width: auto;
+    height: auto;
+    border-radius: 10px;
+   border-style:solid;
+   border-width: 3px;
+    color:rgb(35, 165, 111);
+    margin:0px 17px 0px 8px;
+        }
+  
+        .Alumini img{
+          color:rgb(30, 53, 43);
+          max-width: 100%;
+    margin-top: 0px;
+    Position:relative;
+    left:6%;
+    
+  }
+  
+  .BG{
+    background-color: rgba(149, 173, 116, 0.233);
+  }
+  table {
+    color: black;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #c7b3b3;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #b6a0a0;
+  }
+  tr:hover{
+    background-color: orangered;
+    color: white;
+  }
+  .Panel{
+    margin-left: 13px;
+     display:inline-block; 
+     border-style:solid;
+   border-width: 2px;
+    color:rgb(25, 32, 29);
+   
+  }
+  .Contact{
+    float:right;
+    margin-top:5px;
+    font-size: 130%; color:rgb(37, 39, 41); 
+    position:absolute; 
+    left:30%;
+     margin-bottom:5px;
+  }
+  .Map{
+  position:absolute; 
+    left:8%;
+    margin-bottom:5px;
+  
+  }
+  
+  .Events{
+  display: flex;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  
+  .Contact {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  .Contact2 {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  .Event1 {
+    display: flex;
+    background-color: Purple;
+  }
+  
+  .Event1 > div {
+   
+    background-color: #f1f1f1;
+    margin: 2px;
+    padding: 10px;
+    font-size: 120%;
+  }
+  .Details{
+   
+    display:inline-block; 
+    border-style:solid;
+    padding:2px; 
+    font-size: 110%;
+    background-color: turquoise;
+   
+  }
+  .Credit img{
+    display:inline-block; 
+    border-style:solid;
+    position: relative;
+    left:8%;
+  
+  }
+  
